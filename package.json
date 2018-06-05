@@ -1,0 +1,46 @@
+{
+  "name": "MDNSearchBot",
+  "version": "1.0.0",
+  "description": "Searches MDN links and then send them in Telegram.",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && npm run bot",
+    "bot": "node dist/main.js",
+    "test": "jest --config jest.config.json --ci --runInBand",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "validate": "node node_modules/app.json/index.js validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fazendaaa/MDNSearchBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "MDN"
+  ],
+  "author": "https://github.com/Fazendaaa/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fazendaaa/MDNSearchBot/issues"
+  },
+  "homepage": "https://github.com/Fazendaaa/MDNSearchBot#readme",
+  "devDependencies": {
+    "@types/dotenv": "^4.0.3",
+    "@types/jest": "^23.0.0",
+    "@types/node": "^10.3.1",
+    "app.json": "^1.3.0",
+    "telegram-typings": "^3.6.1",
+    "ts-jest": "^22.4.6",
+    "tslint": "^5.10.0",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "typescript": "^2.9.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "mdn-links": "^0.1.0",
+    "telegraf": "^3.21.2",
+    "telegraf-i18n": "^6.1.1"
+  }
+}
