@@ -35,6 +35,15 @@ const toMessage = ({ title, tags, excerpt, translate, url }: DescriptionContext)
 };
 
 const parseMDN = ({ input, translate }: ParseContext): Array<MDNResponse> => {
+    if (0 === input.length) {
+        return [{
+            title: translate.t('notFoundTitle'),
+            description: translate.t('notFoundDescription'),
+            thumb_url: 'https://i.imgur.com/6LfSLG2.png',
+            message_text: translate.t('notFoundMessageText')
+        }];
+    }
+
     return input.map(({ title, tags, excerpt, url }) => {
         return {
             title,

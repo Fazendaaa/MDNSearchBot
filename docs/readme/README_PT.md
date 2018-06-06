@@ -37,9 +37,7 @@ Examplo:
 @mdnsearchbot Array
 ```
 <div align="center">
-    <video controls>
-        <source src="../../others/gif/help.mp4" type="video/mp4">
-    </video>
+    <img src="https://i.imgur.com/PH2QnNT.gif" />
 </div>
 
 ## Ajuda
@@ -66,6 +64,19 @@ Esse bot está rodando no [Heroku](http://heroku.com/) através de integração 
 * [Telegraf-i18n](https://github.com/telegraf/telegraf-i18n)
 * [Remove Accents](https://github.com/tyxla/remove-accents)
 * [MDNSearchDocs](https://www.npmjs.com/package/mdn-search-docs)
+
+# Arts
+Eu fiz todas as artes pro bot:
+
+<div align="center">
+    <br>
+    <img src="../../others/img/logo/logo.png" width=100/>
+    <img src="../../others/img/homepage/homepage.png" width=100/>
+    <img src="../../others/img/error/error.png" width=100/>
+    <img src="../../others/img/notFound/notFound.png" width=100/>
+    <br>
+    <br>
+</div>
 
 # Código
 [Typescript](http://typescriptlang.org/) puro e simples, além dos [padrões de linter da Microsoft](https://github.com/Microsoft/tslint-microsoft-contrib).

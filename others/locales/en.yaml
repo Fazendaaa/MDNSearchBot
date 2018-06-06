@@ -34,6 +34,15 @@ homepageDescription:
 homepageMessageText:
   "I'm not a content, just a helpe. Click the others results to see more."
 
+notFoundTitle:
+  "Not found"
+
+notFoundDescription:
+  "I haven't found anything related."
+
+notFoundMessageText:
+  "I haven't found anything related."
+
 errorTitle:
   "Error"
 

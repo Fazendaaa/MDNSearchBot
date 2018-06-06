@@ -25,7 +25,6 @@ mask:
 noTags:
   "Sem palavras-chaves disponíveis"
 
-
 homepageTitle:
   "Os próximos links são da homepage da MDN:"
 
@@ -34,6 +33,15 @@ homepageDescription:
 
 homepageMessageText:
   "Eu não sou uma pesquisa, apenas um auxiliar. Click nos outros resultados para ver mais sobre."
+
+notFoundTitle:
+  "Nada encontrado"
+
+notFoundDescription:
+  "Eu não encontrei nada relacionado ao que desejas pesquisar."
+
+notFoundMessageText:
+  "Eu não encontrei nada relacionado ao que desejas pesquisar."
 
 errorTitle:
   "Erro"
