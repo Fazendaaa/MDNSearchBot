@@ -1,0 +1,32 @@
+start:
+  "Por favor, me use no modo online para MDN documentação (@MDNSearchBot)"
+
+help1:
+  "Eu sou apenas uma maneira para você enviar MDN documentação. Deixe-me mostrar para você:"
+
+help2:
+  "Para saber mais basta dar um /about"
+
+about:
+  "Veja o código por trás em:
+  🤖 [Meu site](https://fazendaaa.github.io/MDNSearchBot/) -- Veja como eu funciono.\n\
+  😀 [Site do meu criador](http://fazendaaa.me) — Veja outros bots parecidos.\n\n\
+  Ou até mesmo considere ajudar a me manter no ar:\n\
+  ☕ [Buy me a coffee](https://www.buymeacoffee.com/Fazenda) — Doação de uma vez.\n\
+  📅 [Patreon](https://www.patreon.com/Fazenda/overview) — Assinatura.\n\n\
+  Tem alguma sugestão, erros para reportar ou até mesmo requisição de uma tradução para o bot?\n\
+  Sinta-se a vontade para reportar para: @farmy."
+
+mask:
+  "*Link*: [${title}](${url})\n\n\
+  *Descrição*: _${description}_\n\n\
+  *Palavras-chaves*: _${tags}_"
+
+errorTitle:
+  "Erro"
+
+errorDescription:
+  "Um erro ocorreu, por favor avise @farmy sobre isto."
+
+errorMessageText:
+  "Um erro ocorreu, por favor avise @farmy sobre isto."
