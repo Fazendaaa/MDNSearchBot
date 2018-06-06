@@ -1,0 +1,16 @@
+[
+    {
+        "test": "Caça input",
+        "input": {
+            "message": "Caça"
+        },
+        "output": "Caca"
+    },
+    {
+        "test": "Não tem input",
+        "input": {
+            "message": "Não tem"
+        },
+        "output": "Nao tem"
+    }
+]

@@ -1,0 +1,212 @@
+[
+    {
+        "test": "Testing empty search",
+        "input": {
+            "message": "",
+            "locale": "en-us",
+            "page": 1
+        },
+        "output": [
+            {
+                "title": "nsScriptableInputStream",
+                "description": "A component implementing nsIScriptableInputStream.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [nsScriptableInputStream](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Components/nsScriptableInputStream)\n\n*Description*: _A component implementing nsIScriptableInputStream._\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "Screen.left",
+                "description": "Returns the distance in pixels from the left side of the main screen to the left side of the current screen.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Screen.left](https://developer.mozilla.org/en-US/docs/Web/API/Screen/left)\n\n*Description*: _Returns the distance in pixels from the left side of the main screen to the left side of the current screen._\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "XUL Template Primer - Bindings",
+                "description": "This document expands on the [template-primer.html XUL Template Primer] by introducing the bindings element in the extended XUL template syntax.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [XUL Template Primer - Bindings](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/XUL_Template_Primer_-_Bindings)\n\n*Description*: _This document expands on the [template-primer.html XUL Template Primer] by introducing the bindings element in the extended XUL template syntax._\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "RbXPCOM",
+                "description": "RbXPCOM (Ruby Cross-Platform COM) provides bindings between the popular Ruby programming language and XPCOM. You can find additional information using the resource links below.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [RbXPCOM](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Language_bindings/RbXPCOM)\n\n*Description*: _RbXPCOM (Ruby Cross-Platform COM) provides bindings between the popular Ruby programming language and XPCOM. You can find additional information using the resource links below._\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "Color and Background",
+                "description": "The color CSS data type denotes a color in the sRGB color space. A color can be described in any of these ways:",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Color and Background](https://developer.mozilla.org/en-US/docs/Useful_CSS_tips/Color_and_Background)\n\n*Description*: _The color CSS data type denotes a color in the sRGB color space. A color can be described in any of these ways:_\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "NS_Alloc",
+                "description": "Infallibly allocates a block of memory using the XPCOM memory manager.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [NS_Alloc](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Core_functions/NS_Alloc)\n\n*Description*: _Infallibly allocates a block of memory using the XPCOM memory manager._\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "An Interview With Douglas Bowman of Wired News",
+                "description": "One of the Web's oldest news sites, Wired News draws between 20 and 25 million page views every month. On October 11, 2002, Wired launched a brand-new site design that uses validating XHTML for its structure and a small collection of CSS files for its layout. The new design clearly shows what some experts have been saying: that standards-based design can be visually compelling and preserve the interface conventions we've come to expect from Web pages.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [An Interview With Douglas Bowman of Wired News](https://developer.mozilla.org/en-US/docs/Archive/An_Interview_With_Douglas_Bowman_of_Wired_News)\n\n*Description*: _One of the Web's oldest news sites, Wired News draws between 20 and 25 million page views every month. On October 11, 2002, Wired launched a brand-new site design that uses validating XHTML for its structure and a small collection of CSS files for its layout. The new design clearly shows what some experts have been saying: that standards-based design can be visually compelling and preserve the interface conventions we've come to expect from Web pages._\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "nsICookieConsent",
+                "description": "Inherits from: nsISupports",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [nsICookieConsent](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsICookieConsent)\n\n*Description*: _Inherits from: nsISupports_\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "Working with Multiple Versions of Interfaces",
+                "description": "In this short note we illustrate how one can update an XPCOM module in\norder for it to work in both Firefox 2 and Firefox 3, even if the interfaces have\nchanged in the interim.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Working with Multiple Versions of Interfaces](https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Working_with_multiple_versions_of_interfaces)\n\n*Description*: _In this short note we illustrate how one can update an XPCOM module in\norder for it to work in both Firefox 2 and Firefox 3, even if the interfaces have\nchanged in the interim._\n\n*Tags*: _parsedTags_"
+            },
+            {
+                "title": "Creating a Skin for Mozilla",
+                "description": "In order to create a skin for mozilla, you will need to know three things. How to edit images, extract zip files, and how to modify CSS. Mozilla uses standard gif, png, and jpeg images for the buttons and CSS to style everything else in the interface.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Creating a Skin for Mozilla](https://developer.mozilla.org/en-US/docs/Archive/Mozilla/Creating_a_skin_for_Mozilla)\n\n*Description*: _In order to create a skin for mozilla, you will need to know three things. How to edit images, extract zip files, and how to modify CSS. Mozilla uses standard gif, png, and jpeg images for the buttons and CSS to style everything else in the interface._\n\n*Tags*: _parsedTags_"
+            }
+        ]
+    },
+    {
+        "test": "Testing array search",
+        "input": {
+            "message": "array",
+            "locale": "en-us",            
+            "page": 1
+        },
+        "output": [
+            {
+                "title": "Array",
+                "description": "An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array](https://developer.mozilla.org/en-US/docs/Glossary/array)\n\n*Description*: _An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value._\n\n*Tags*: _CodingScripting | Array | JavaScript | programming | Glossary_"
+            },
+            {
+                "title": "Array",
+                "description": "The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)\n\n*Description*: _The JavaScript Array object is a global object that is used in the construction of arrays; which are high-level, list-like objects._\n\n*Tags*: _Array | Reference | Example | Global Objects | JavaScript_"
+            },
+            {
+                "title": "Arrays",
+                "description": "In the final article of this module, we'll look at arrays — a neat way of storing a list of data items under a single variable name. Here we look at why this is useful, then explore how to create an array, retrieve, add, and remove items stored in an array, and more besides.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)\n\n*Description*: _In the final article of this module, we'll look at arrays — a neat way of storing a list of data items under a single variable name. Here we look at why this is useful, then explore how to create an array, retrieve, add, and remove items stored in an array, and more besides._\n\n*Tags*: _Pop | unshift | Beginner | CodingScripting | shift | Learn | Join | Arrays | split | l10n:priority | JavaScript | Article | Push_"
+            },
+            {
+                "title": "Array.isArray()",
+                "description": "The Array.isArray() method determines whether the passed value is an Array.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array.isArray()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)\n\n*Description*: _The Array.isArray() method determines whether the passed value is an Array._\n\n*Tags*: _Reference | polyfill | Array | JavaScript | ECMAScript 5 | Method_"
+            },
+            {
+                "title": "Array.of()",
+                "description": "The Array.of() method creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array.of()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of)\n\n*Description*: _The Array.of() method creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments._\n\n*Tags*: _polyfill | Array | ECMAScript 2015 | Method | JavaScript_"
+            },
+            {
+                "title": "ArrayType",
+                "description": "ArrayType represents C arrays",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [ArrayType](https://developer.mozilla.org/en-US/docs/Mozilla/js-ctypes/js-ctypes_reference/ArrayType)\n\n*Description*: _ArrayType represents C arrays_\n\n*Tags*: _js-ctypes | Référence(2) | Reference | JavaScript_"
+            },
+            {
+                "title": "Array.prototype",
+                "description": "The Array.prototype property represents the prototype for the Array constructor and allows you to add new properties and methods to all Array objects.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)\n\n*Description*: _The Array.prototype property represents the prototype for the Array constructor and allows you to add new properties and methods to all Array objects._\n\n*Tags*: _Array | Property | JavaScript_"
+            },
+            {
+                "title": "Array.from()",
+                "description": "The Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array.from()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)\n\n*Description*: _The Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object._\n\n*Tags*: _Reference | polyfill | Array | ECMAScript 2015 | JavaScript | Method_"
+            },
+            {
+                "title": "Array.length",
+                "description": "The length property of an object which is an instance of type Array sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)\n\n*Description*: _The length property of an object which is an instance of type Array sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array._\n\n*Tags*: _Array | Reference | Property | JavaScript_"
+            },
+            {
+                "title": "Array comprehensions",
+                "description": "The array comprehension syntax was a JavaScript expression which allowed you to quickly assemble a new array based on an existing one. However, it has been removed from the standard and the Firefox implementation. Do not use it!",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array comprehensions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Array_comprehensions)\n\n*Description*: _The array comprehension syntax was a JavaScript expression which allowed you to quickly assemble a new array based on an existing one. However, it has been removed from the standard and the Firefox implementation. Do not use it!_\n\n*Tags*: _Reference | Operator | Non-standard | JavaScript_"
+            }
+        ]
+    },
+    {
+        "test": "Testing array number search",
+        "input": {
+            "message": "array number",
+            "locale": "en-us",
+            "page": 1
+        },
+        "output": [
+            {
+                "title": "Number",
+                "description": "In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Number](https://developer.mozilla.org/en-US/docs/Glossary/Number)\n\n*Description*: _In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums._\n\n*Tags*: _CodingScripting | Glossary | JavaScript_"
+            },
+            {
+                "title": "Array",
+                "description": "An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array](https://developer.mozilla.org/en-US/docs/Glossary/array)\n\n*Description*: _An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value._\n\n*Tags*: _CodingScripting | Array | JavaScript | programming | Glossary_"
+            },
+            {
+                "title": "<number>",
+                "description": "The number CSS data type represents a number, being either an integer or a number with a fractional component.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [<number>](https://developer.mozilla.org/en-US/docs/Web/CSS/number)\n\n*Description*: _The number CSS data type represents a number, being either an integer or a number with a fractional component._\n\n*Tags*: _CSS | Reference | Web | CSS Data Type | Layout_"
+            },
+            {
+                "title": "Array.length",
+                "description": "The length property of an object which is an instance of type Array sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array.length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)\n\n*Description*: _The length property of an object which is an instance of type Array sets or returns the number of elements in that array. The value is an unsigned, 32-bit integer that is always numerically greater than the highest index in the array._\n\n*Tags*: _Array | Reference | Property | JavaScript_"
+            },
+            {
+                "title": "Number",
+                "description": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)\n\n*Description*: _The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor._\n\n*Tags*: _Number | Reference | JavaScript_"
+            },
+            {
+                "title": "Number.prototype",
+                "description": "The Number.prototype property represents the prototype for the Number constructor.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Number.prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/prototype)\n\n*Description*: _The Number.prototype property represents the prototype for the Number constructor._\n\n*Tags*: _Property | Number | Prototype | JavaScript_"
+            },
+            {
+                "title": "Number.EPSILON",
+                "description": "The Number.EPSILON property represents the difference between 1 and the smallest floating point number greater than 1.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Number.EPSILON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON)\n\n*Description*: _The Number.EPSILON property represents the difference between 1 and the smallest floating point number greater than 1._\n\n*Tags*: _Number | Property | ECMAScript 2015 | JavaScript_"
+            },
+            {
+                "title": "SVGAnimatedNumber",
+                "description": "The SVGAnimatedNumber interface is used for attributes of basic type Number which can be animated.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [SVGAnimatedNumber](https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimatedNumber)\n\n*Description*: _The SVGAnimatedNumber interface is used for attributes of basic type Number which can be animated._\n\n*Tags*: _API | SVG | NeedsExample | SVG DOM | HTML_"
+            },
+            {
+                "title": "Array.of()",
+                "description": "The Array.of() method creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Array.of()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/of)\n\n*Description*: _The Array.of() method creates a new Array instance with a variable number of arguments, regardless of number or type of the arguments._\n\n*Tags*: _polyfill | Array | ECMAScript 2015 | Method | JavaScript_"
+            },
+            {
+                "title": "Number.isFinite()",
+                "description": "The Number.isFinite() method determines whether the passed value is a finite number.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/Gpdebb5.png)*Link*: [Number.isFinite()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite)\n\n*Description*: _The Number.isFinite() method determines whether the passed value is a finite number._\n\n*Tags*: _Number | Reference | Method | JavaScript_"
+            }
+        ]
+    }
+]

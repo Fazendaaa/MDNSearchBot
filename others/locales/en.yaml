@@ -1,0 +1,33 @@
+start:
+  "Please, use me as a inline tool to send MDN docs (@MDNSearchBot)"
+
+help1:
+  "I'm just a wrapper for you to sent MDN links in groups. Let me show it to you:"
+
+help2:
+  "To know more, just /about"
+
+about:
+  "See the code behind me at:\n\
+  🤖 [My website](https://fazendaaa.github.io/MDNSearchBot/) -- See how I work.\n\
+  😀 [Creator's website](http://fazendaaa.me) — Check it out some other bots.\n\n\
+  Or even consider it supporting my creator:\n\
+  ☕ [Buy me a coffee](https://www.buymeacoffee.com/Fazenda) — One time only.\n\
+  📅 [Patreon](https://www.patreon.com/Fazenda/overview) — Subscription.\n\n\
+  Has any suggestions, errors to report it or even request a translation?\n\
+  Fell free to tell at: @farmy."
+
+mask:
+  "[\u200B](https://i.imgur.com/Gpdebb5.png)\
+  *Link*: [${title}](${url})\n\n\
+  *Description*: _${description}_\n\n\
+  *Tags*: _${tags}_"
+
+errorTitle:
+  "Error"
+
+errorDescription:
+  "An error happen, please warn @farmy about it."
+
+errorMessageText:
+  "An error happen, please warn @farmy about it."

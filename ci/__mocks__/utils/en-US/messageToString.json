@@ -1,0 +1,23 @@
+[
+    {
+        "test": "Empty input",
+        "input": {
+            "message": ""
+        },
+        "output": ""
+    },
+    {
+        "test": "Foo input",
+        "input": {
+            "message": "Foo"
+        },
+        "output": "Foo"
+    },
+    {
+        "test": "Foo bar input",
+        "input": {
+            "message": "Foo bar"
+        },
+        "output": "Foo bar"
+    }
+]
