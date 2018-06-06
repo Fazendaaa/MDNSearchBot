@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const mdn_search_docs_1 = require("mdn-search-docs");
 const parseTags = (input) => {
-    if (undefined === input) {
+    if (null == input) {
         return '';
     }
     if ('string' === typeof input) {
