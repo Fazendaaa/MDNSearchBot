@@ -8,7 +8,7 @@ import { Context } from '../../index';
 import { DescriptionContext, MDNResponse, ParseContext } from './index';
 
 const parseTags = (input: string | Array<string>): string => {
-    if (undefined === input) {
+    if (null != input) {
         return '';
     } if ('string' === typeof input) {
         return input;
