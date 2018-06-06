@@ -15,10 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="logo.svg"
-   inkscape:export-filename="/home/farm/Documents/MDNSearchBot/others/img/logo/logopng.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   sodipodi:docname="homepage.svg">
   <defs
      id="defs2">
     <clipPath
@@ -950,7 +947,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g1080"
+       id="g1018"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <circle
@@ -958,7 +955,7 @@
          cy="-144.15724"
          cx="-566.92175"
          id="path815"
-         style="opacity:1;fill:#ed2024;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:#0088aa;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
          clip-path="url(#clipPath1126)"
          y="-370.80832"

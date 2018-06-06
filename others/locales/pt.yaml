@@ -18,10 +18,22 @@ about:
   Sinta-se a vontade para reportar para: @farmy."
 
 mask:
-  "[\u200B](https://i.imgur.com/Gpdebb5.png)\
-  *Link*: [${title}](${url})\n\n\
+  "[\u200B](https://i.imgur.com/jPMRbWz.jpg)*Link*: [${title}](${url})\n\n\
   *Descrição*: _${description}_\n\n\
-  *Palavras-chaves*: _${tags}_"
+  *Palavras-chaves*: _${tags}_\n"
+
+noTags:
+  "Sem palavras-chaves disponíveis"
+
+
+homepageTitle:
+  "Os próximos links são da homepage da MDN:"
+
+homepageDescription:
+  "Vá descendo para ver mais"
+
+homepageMessageText:
+  "Eu não sou uma pesquisa, apenas um auxiliar. Click nos outros resultados para ver mais sobre."
 
 errorTitle:
   "Erro"

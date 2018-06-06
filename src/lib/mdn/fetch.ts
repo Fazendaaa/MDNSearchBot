@@ -5,20 +5,33 @@
 
 import { searchMDN } from 'mdn-search-docs';
 import { Context } from '../../index';
-import { DescriptionContext, MDNResponse, ParseContext } from './index';
+import { DescriptionContext, MDNResponse, ParseContext, ParseTagsContext } from './index';
 
-const parseTags = (input: string | Array<string>): string => {
-    if (undefined === input) {
-        return '';
+// This fix the broken template for when running the mask.
+const cleanTags = (input: string): string => input.replace(/([\(\)])|([:_-])/gi, ' ');
+
+const parseTags = ({ input, translate }: ParseTagsContext): string => {
+    if (null === input || undefined === input) {
+        return translate.t('noTags');
+    } if ('object' === typeof input && input.length > 1) {
+        return input.join(', ');
     } if ('string' === typeof input) {
         return input;
     }
 
-    return input.join(' | ');
+    return translate.t('noTags');
 };
 
 const toMessage = ({ title, tags, excerpt, translate, url }: DescriptionContext): string => {
-    return translate.t('mask', { tags: parseTags(tags), description: excerpt, title, url });
+    try {
+        const parsedTags = cleanTags(parseTags({ input: tags, translate }));
+
+        return translate.t('mask', { tags: parsedTags, description: excerpt, title, url });
+    } catch (e) {
+        console.error(e);
+
+        return translate.t('errorDescription');
+    }
 };
 
 const parseMDN = ({ input, translate }: ParseContext): Array<MDNResponse> => {
@@ -26,7 +39,7 @@ const parseMDN = ({ input, translate }: ParseContext): Array<MDNResponse> => {
         return {
             title,
             description: excerpt,
-            thumb_url: 'https://i.imgur.com/Gpdebb5.png',
+            thumb_url: 'https://i.imgur.com/hkANafU.png',
             message_text: toMessage({ title, tags, excerpt, translate, url })
         };
     });
@@ -39,8 +52,18 @@ export const fetchMDN = async ({ message, locale, translate, page }: Context): P
 
     try {
         const searched = await searchMDN({ term: message, locale: parsedLocale, page });
+        const parsed = parseMDN({ input: searched.documents, translate });
 
-        return parseMDN({ input: searched.documents, translate });
+        if ('' === message && 0 === page) {
+            parsed.unshift({
+                title: translate.t('homepageTitle'),
+                description: translate.t('homepageDescription'),
+                thumb_url: 'https://i.imgur.com/iCbi1J7.png',
+                message_text: translate.t('homepageMessageText')
+            });
+        }
+
+        return parsed;
     } catch (e) {
         console.error(e);
 

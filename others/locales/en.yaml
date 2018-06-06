@@ -18,10 +18,21 @@ about:
   Fell free to tell at: @farmy."
 
 mask:
-  "[\u200B](https://i.imgur.com/Gpdebb5.png)\
-  *Link*: [${title}](${url})\n\n\
+  "[\u200B](https://i.imgur.com/jPMRbWz.jpg)*Link*: [${title}](${url})\n\n\
   *Description*: _${description}_\n\n\
-  *Tags*: _${tags}_"
+  *Tags*: _${tags}_\n"
+
+noTags:
+  "No tags available"
+
+homepageTitle:
+  "The following results are trending in the homepage:"
+
+homepageDescription:
+  "Scroll down to see it more"
+
+homepageMessageText:
+  "I'm not a content, just a helpe. Click the others results to see more."
 
 errorTitle:
   "Error"
