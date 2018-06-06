@@ -9,24 +9,35 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mdn_search_docs_1 = require("mdn-search-docs");
-const parseTags = (input) => {
-    if (null == input) {
-        return '';
+const cleanTags = (input) => input.replace(/([\(\)])|([:_-])/gi, ' ');
+const parseTags = ({ input, translate }) => {
+    if (null === input || undefined === input) {
+        return translate.t('noTags');
+    }
+    if ('object' === typeof input && input.length > 1) {
+        return input.join(', ');
     }
     if ('string' === typeof input) {
         return input;
     }
-    return input.join(' | ');
+    return translate.t('noTags');
 };
 const toMessage = ({ title, tags, excerpt, translate, url }) => {
-    return translate.t('mask', { tags: parseTags(tags), description: excerpt, title, url });
+    try {
+        const parsedTags = cleanTags(parseTags({ input: tags, translate }));
+        return translate.t('mask', { tags: parsedTags, description: excerpt, title, url });
+    }
+    catch (e) {
+        console.error(e);
+        return translate.t('errorDescription');
+    }
 };
 const parseMDN = ({ input, translate }) => {
     return input.map(({ title, tags, excerpt, url }) => {
         return {
             title,
             description: excerpt,
-            thumb_url: 'https://i.imgur.com/Gpdebb5.png',
+            thumb_url: 'https://i.imgur.com/hkANafU.png',
             message_text: toMessage({ title, tags, excerpt, translate, url })
         };
     });
@@ -37,7 +48,16 @@ exports.fetchMDN = ({ message, locale, translate, page }) => __awaiter(this, voi
     const parsedLocale = split[0].concat('-', country);
     try {
         const searched = yield mdn_search_docs_1.searchMDN({ term: message, locale: parsedLocale, page });
-        return parseMDN({ input: searched.documents, translate });
+        const parsed = parseMDN({ input: searched.documents, translate });
+        if ('' === message && 0 === page) {
+            parsed.unshift({
+                title: translate.t('homepageTitle'),
+                description: translate.t('homepageDescription'),
+                thumb_url: 'https://i.imgur.com/iCbi1J7.png',
+                message_text: translate.t('homepageMessageText')
+            });
+        }
+        return parsed;
     }
     catch (e) {
         console.error(e);

@@ -15,3 +15,8 @@ export interface DescriptionContext {
     excerpt: string;
     tags: Array<string>;
 }
+
+export interface ParseTagsContext {
+    input: string | Array<string>;
+    translate: any
+}
