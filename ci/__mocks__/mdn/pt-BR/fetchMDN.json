@@ -1,0 +1,212 @@
+[
+    {
+        "test": "Pesquisa vazia",
+        "input": {
+            "message": "",
+            "locale": "pt-br",
+            "page": 1
+        },
+        "output": [
+            {
+                "title": "Princípios de design",
+                "description": "Seja consistente Seja consistente no seu idioma. Consulte a uma ação ou um item com o mesmo termo em seu aplicativo , e usar cada termo para apenas uma ação ou item. Seja consistente em sua interface de usuário (UI). Por exemplo, se você colocar o botão voltar no canto superior esquerdo , não deve aparecer no canto inferior esquerdo em outras telas dentro do seu aplicativo. Seja consistente em seus elementos visuais . Se dois elementos têm a mesma aparência , eles devem ter o mesmo comportamento. Se dois elementos têm funções diferentes, eles devem ter distintos diferentes olhares.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Princípios de design](https://developer.mozilla.org/pt-BR/docs/Web/Apps/Quickstart/Design/Principios_de_Designe)\n\n*Descrição*: _Seja consistente Seja consistente no seu idioma. Consulte a uma ação ou um item com o mesmo termo em seu aplicativo , e usar cada termo para apenas uma ação ou item. Seja consistente em sua interface de usuário (UI). Por exemplo, se você colocar o botão voltar no canto superior esquerdo , não deve aparecer no canto inferior esquerdo em outras telas dentro do seu aplicativo. Seja consistente em seus elementos visuais . Se dois elementos têm a mesma aparência , eles devem ter o mesmo comportamento. Se dois elementos têm funções diferentes, eles devem ter distintos diferentes olhares._\n\n*Palavras-chaves*: _designe | princípios | Apps_"
+            },
+            {
+                "title": "Criação de MathML",
+                "description": "Essa página explica como escrever expressões matemáticas utilizando a linguagem MathML. Da mesma forma que HTML, MathML é descrita por meio de tags e atributos. HTML torna-se mecânico quando seu documento possui estruturas avançadas como listas e figuras mas, felizmente, existem vários geradores apartir de notações simplificadas, editores gráficos (WYSIWYG) e gerenciadores de conteúdo para ajudar a escrever páginas web.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Criação de MathML](https://developer.mozilla.org/pt-BR/docs/Web/MathML/Authoring)\n\n*Descrição*: _Essa página explica como escrever expressões matemáticas utilizando a linguagem MathML. Da mesma forma que HTML, MathML é descrita por meio de tags e atributos. HTML torna-se mecânico quando seu documento possui estruturas avançadas como listas e figuras mas, felizmente, existem vários geradores apartir de notações simplificadas, editores gráficos (WYSIWYG) e gerenciadores de conteúdo para ajudar a escrever páginas web._\n\n*Palavras-chaves*: _MathML | Iniciante | Projeto MathML_"
+            },
+            {
+                "title": "Add-ons para Firefox OS",
+                "description": "O Firefox OS 2.5 introduziu o suporte a add-ons, uma característica que os usuários de desktop já conhecem e curtem no Firefox. Add-on no Firefox OS são ainda mais poderosos e podem personalizar não só o navegador, mas toda a experiência de uso do telefone, com ajustes na tela inicial e sistema de aplicativos como email e mensagens. Essa página mostra o que você precisa saber para começar a criar add-ons para o FIrefox OS e se envolver na comunidade de add-ons.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Add-ons para Firefox OS](https://developer.mozilla.org/pt-BR/docs/Archive/B2G_OS/Add-ons)\n\n*Descrição*: _O Firefox OS 2.5 introduziu o suporte a add-ons, uma característica que os usuários de desktop já conhecem e curtem no Firefox. Add-on no Firefox OS são ainda mais poderosos e podem personalizar não só o navegador, mas toda a experiência de uso do telefone, com ajustes na tela inicial e sistema de aplicativos como email e mensagens. Essa página mostra o que você precisa saber para começar a criar add-ons para o FIrefox OS e se envolver na comunidade de add-ons._\n\n*Palavras-chaves*: _Apps | Firefox OS | Extensions | customizations | Add-ons_"
+            },
+            {
+                "title": "Relatórios de Travamento no Firefox OS",
+                "description": "As instruções a seguir pressupõem que você já tenha seguido estas três etapas:",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Relatórios de Travamento no Firefox OS](https://developer.mozilla.org/pt-BR/docs/Archive/B2G_OS/Debugging/Firefox_OS_crash_reporting)\n\n*Descrição*: _As instruções a seguir pressupõem que você já tenha seguido estas três etapas:_\n\n*Palavras-chaves*: _Firefox OS | Testes | crash | Debugador | Depurador | QA_"
+            },
+            {
+                "title": "DeviceStorage.get",
+                "description": "O metodo get é usado para obter um arquivo somente-leitura de uma dada área de armazenamento.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [DeviceStorage.get](https://developer.mozilla.org/pt-BR/docs/Web/API/DeviceStorage.get)\n\n*Descrição*: _O metodo get é usado para obter um arquivo somente-leitura de uma dada área de armazenamento._\n\n*Palavras-chaves*: _API | Reference | Referencia | Firefox OS | Não Padrão | Référence(2) | metodo | Device Storage | Referência(2) | Method_"
+            },
+            {
+                "title": "Guia rápido para desenvolvimento Gaia",
+                "description": "Este guia fornece um rápido tutorial para desenvolver e depurar aplicativos Gaia, incluindo rodar o Gaia dentro do Firefox e do gerenciador de aplicativos do Firefox OS. Este guia assume que você conhece a tecnologia HTML5, tem conhecimentos sobre padrões MVC e um grande interesse no Firefox OS. Ao final, você terá um entendimento básico sobre a estrutura de um aplicativo Gaia e como testar seu trabalho.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Guia rápido para desenvolvimento Gaia](https://developer.mozilla.org/pt-BR/docs/Archive/B2G_OS/Developing_Firefox_OS/Guia_rapido_desenvolvimento_Gaia)\n\n*Descrição*: _Este guia fornece um rápido tutorial para desenvolver e depurar aplicativos Gaia, incluindo rodar o Gaia dentro do Firefox e do gerenciador de aplicativos do Firefox OS. Este guia assume que você conhece a tecnologia HTML5, tem conhecimentos sobre padrões MVC e um grande interesse no Firefox OS. Ao final, você terá um entendimento básico sobre a estrutura de um aplicativo Gaia e como testar seu trabalho._\n\n*Palavras-chaves*: _B2G | Gaia | Firefox OS | Desenvolvimento Firefox OS_"
+            },
+            {
+                "title": "Testes no Firefox OS: um guia para desenvolvedores",
+                "description": "Se você é um desenvolvedor Gecko, você deve rever a documentação para automação de testes com o qual você já é familiar: mochitest , reftest , e xpcshell .",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Testes no Firefox OS: um guia para desenvolvedores](https://developer.mozilla.org/pt-BR/docs/Archive/B2G_OS/Testes_Firefox_OS_guia_desenvolvedores)\n\n*Descrição*: _Se você é um desenvolvedor Gecko, você deve rever a documentação para automação de testes com o qual você já é familiar: mochitest , reftest , e xpcshell ._\n\n*Palavras-chaves*: _Testes | Gaia | Gecko | Firefox OS_"
+            },
+            {
+                "title": "Emscripten",
+                "description": "Emscripten é um compilador de LLVM para JavaScript. Ele recebe bytecode LLVM (gerado por exemplo de código C/C++ utilizando Clang, ou de outra linguagem) e compila para JavaScript, que pode ser executado na Web.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Emscripten](https://developer.mozilla.org/pt-BR/docs/Mozilla/Projects/Emscripten)\n\n*Descrição*: _Emscripten é um compilador de LLVM para JavaScript. Ele recebe bytecode LLVM (gerado por exemplo de código C/C++ utilizando Clang, ou de outra linguagem) e compila para JavaScript, que pode ser executado na Web._\n\n*Palavras-chaves*: _JavaScript | C++ | LLVM | Emscripten_"
+            },
+            {
+                "title": "Edit CSS filters",
+                "description": "propriedades do filter nas Rules view tem uma amostra de cinza e branco circular ao lado deles:",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Edit CSS filters](https://developer.mozilla.org/pt-BR/docs/Tools/Page_Inspector/How_to/Edit_CSS_filters)\n\n*Descrição*: _propriedades do filter nas Rules view tem uma amostra de cinza e branco circular ao lado deles:_\n\n*Palavras-chaves*: _Filtros | CSS | DevTools | Ferramentas | Inspetor de Página_"
+            },
+            {
+                "title": "Compilando o Firefox OS para o Flame no OSX",
+                "description": "Quando você tiver obtido o core da build de sistema B2G, você precisa configurar o dispositivo que você planeja instála-lo. Para ver a lista de dispositivos suportados, você pode usar o utilitário config.sh — rode o seguinte comando de dentro do diretório B2g:",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Compilando o Firefox OS para o Flame no OSX](https://developer.mozilla.org/pt-BR/docs/Archive/B2G_OS/Construindo_e_instalando_o_Firefox_OS/Compilando_o_Firefox_OS_para_o_Flame_no_OSX)\n\n*Descrição*: _Quando você tiver obtido o core da build de sistema B2G, você precisa configurar o dispositivo que você planeja instála-lo. Para ver a lista de dispositivos suportados, você pode usar o utilitário config.sh — rode o seguinte comando de dentro do diretório B2g:_\n\n*Palavras-chaves*: _Mac | B2G | Guia(2) | Firefox OS | Flame | Build Documentation PT-BR | Documentação Build | OSX_"
+            }
+        ]
+    },
+    {
+        "test": "Pesquisa array",
+        "input": {
+            "message": "Array",
+            "locale": "pt-br",
+            "page": 1
+        },
+        "output": [
+            {
+                "title": "Array",
+                "description": "Um array (arranjo ou vetor) é uma coleção de dados (tanto do tipo primitivo como objeto dependendo da linguagem de programação). Arrays são usados para armazenar múltiplos valores em uma única variável. Isso é comparável a uma variável que pode armazenar apenas um valor.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array](https://developer.mozilla.org/pt-BR/docs/Glossario/array)\n\n*Descrição*: _Um array (arranjo ou vetor) é uma coleção de dados (tanto do tipo primitivo como objeto dependendo da linguagem de programação). Arrays são usados para armazenar múltiplos valores em uma única variável. Isso é comparável a uma variável que pode armazenar apenas um valor._\n\n*Palavras-chaves*: _Iniciante | JavaScript_"
+            },
+            {
+                "title": "Array",
+                "description": "An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array](https://developer.mozilla.org/en-US/docs/Glossary/array)\n\n*Descrição*: _An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value._\n\n*Palavras-chaves*: _CodingScripting | Array | JavaScript | programming | Glossary_"
+            },
+            {
+                "title": "Array",
+                "description": "O objeto Array do JavaScript é um objeto global usado na construção de 'arrays': objetos de alto nível semelhantes a listas.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)\n\n*Descrição*: _O objeto Array do JavaScript é um objeto global usado na construção de 'arrays': objetos de alto nível semelhantes a listas._\n\n*Palavras-chaves*: _Array | TopicStub | NeedsTranslation | JavaScript | Refer_"
+            },
+            {
+                "title": "Array.prototype",
+                "description": "A propriedade Array.prototype representa o protótipo para o construtor Array e permite que você adcione novos metodos e propriedades para todos os objetos Array;",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array.prototype](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype)\n\n*Descrição*: _A propriedade Array.prototype representa o protótipo para o construtor Array e permite que você adcione novos metodos e propriedades para todos os objetos Array;_\n\n*Palavras-chaves*: _Array | Propriedade | JavaScript_"
+            },
+            {
+                "title": "TypedArray",
+                "description": "A TypedArray object describes an array-like view of an underlying binary data buffer . There is no global property named TypedArray , nor is there a directly visible TypedArray constructor.  Instead, there are a number of different global properties, whose values are typed array constructors for specific element types, listed below. On the following pages you will find common properties and methods that can be used with any typed array containing elements of any type.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [TypedArray](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/TypedArray)\n\n*Descrição*: _A TypedArray object describes an array-like view of an underlying binary data buffer . There is no global property named TypedArray , nor is there a directly visible TypedArray constructor.  Instead, there are a number of different global properties, whose values are typed array constructors for specific element types, listed below. On the following pages you will find common properties and methods that can be used with any typed array containing elements of any type._\n\n*Palavras-chaves*: _JavaScript | TypedArrays | TopicStub | TypedArray | NeedsTranslation_"
+            },
+            {
+                "title": "ArrayBuffer",
+                "description": "O ArrayBuffer é um tipo de dado usado para representar um genérico, buffer de dados binários de tamanho fixo . Você não pode manipular diretamente os conteúdos de um ArrayBuffer ;  em vez disso, você cria um objeto ArrayBufferView que representa o buffer em um formato específico, e usa para ler e escrever os conteúdos do buffer.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [ArrayBuffer](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)\n\n*Descrição*: _O ArrayBuffer é um tipo de dado usado para representar um genérico, buffer de dados binários de tamanho fixo . Você não pode manipular diretamente os conteúdos de um ArrayBuffer ;  em vez disso, você cria um objeto ArrayBufferView que representa o buffer em um formato específico, e usa para ler e escrever os conteúdos do buffer._\n\n*Palavras-chaves*: _Array | ArrayBuffer | API | JavaScript_"
+            },
+            {
+                "title": "Array comprehensions",
+                "description": "A sintaxe de array comprehension trata-se de uma expressão JavaScript que lhe permite rapidamente montar um novo array com base em outro já existente. As comprehensions já existem em várias outras linguagens e estarão então presentes no padrão ECMAScript 7.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array comprehensions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Array_comprehensions)\n\n*Descrição*: _A sintaxe de array comprehension trata-se de uma expressão JavaScript que lhe permite rapidamente montar um novo array com base em outro já existente. As comprehensions já existem em várias outras linguagens e estarão então presentes no padrão ECMAScript 7._\n\n*Palavras-chaves*: _Array | Operador | ECMAScript7 | JavaScript_"
+            },
+            {
+                "title": "Array.prototype.pop()",
+                "description": "O método pop() remove o último elemento de um array e retorna aquele elemento.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array.prototype.pop()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)\n\n*Descrição*: _O método pop() remove o último elemento de um array e retorna aquele elemento._\n\n*Palavras-chaves*: _Pop | Array | JavaScript_"
+            },
+            {
+                "title": "Array.prototype.push()",
+                "description": "O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array.prototype.push()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/push)\n\n*Descrição*: _O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array._\n\n*Palavras-chaves*: _Array | Push | JavaScript_"
+            },
+            {
+                "title": "Array.prototype.flat()",
+                "description": "O método flat() cria um novo array com todos elementos sub-arrays concatenados nele de forma recursiva até a profundidade especificada.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Array.prototype.flat()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)\n\n*Descrição*: _O método flat() cria um novo array com todos elementos sub-arrays concatenados nele de forma recursiva até a profundidade especificada._\n\n*Palavras-chaves*: _JavaScript | Array | Prototype | Method | Experimental_"
+            }
+        ]
+    },
+    {
+        "test": "Pesquisa string number",
+        "input": {
+            "message": "string number",
+            "locale": "pt-br",
+            "page": 1
+        },
+        "output":[
+            {
+                "title": "Number.prototype.toLocaleString()",
+                "description": "O método toLocaleString() retorna uma string com uma representação sensível a linguagem deste número.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number.prototype.toLocaleString()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)\n\n*Descrição*: _O método toLocaleString() retorna uma string com uma representação sensível a linguagem deste número._\n\n*Palavras-chaves*: _Prototype | Number | Número | JavaScript | Internacionalização | Método(2)_"
+            },
+            {
+                "title": "Number",
+                "description": "In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number](https://developer.mozilla.org/en-US/docs/Glossary/Number)\n\n*Descrição*: _In JavaScript, Number is a numeric data type in the double-precision 64-bit floating point format (IEEE 754). In other programming languages different numeric types can exist, for examples: Integers, Floats, Doubles, or Bignums._\n\n*Palavras-chaves*: _CodingScripting | Glossary | JavaScript_"
+            },
+            {
+                "title": "Number.prototype.toLocaleString()",
+                "description": "The toLocaleString() method returns a string with a language sensitive representation of this number.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number.prototype.toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString)\n\n*Descrição*: _The toLocaleString() method returns a string with a language sensitive representation of this number._\n\n*Palavras-chaves*: _Internationalization | Method | Number | Prototype | JavaScript_"
+            },
+            {
+                "title": "Number.prototype.toString()",
+                "description": "The toString() method returns a string representing the specified Number object.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number.prototype.toString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString)\n\n*Descrição*: _The toString() method returns a string representing the specified Number object._\n\n*Palavras-chaves*: _Number | Prototype | Method | JavaScript_"
+            },
+            {
+                "title": "Number.isFinite()",
+                "description": "O método Number.isFinite()  determina se o valor passado é um número finito.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number.isFinite()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite)\n\n*Descrição*: _O método Number.isFinite()  determina se o valor passado é um número finito._\n\n*Palavras-chaves*: _JavaScript | Method_"
+            },
+            {
+                "title": "Number.isNaN()",
+                "description": "O método Number.isNaN() determina se o valor passado é NaN. Versão mais robusta do original global isNaN.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number.isNaN()](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN)\n\n*Descrição*: _O método Number.isNaN() determina se o valor passado é NaN. Versão mais robusta do original global isNaN._\n\n*Palavras-chaves*: _Number | Experimental | Method | Expérimental(2) | JavaScript_"
+            },
+            {
+                "title": "String",
+                "description": "O objeto global String  é um construtor para strings, ou uma sequência de caracteres.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [String](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String)\n\n*Descrição*: _O objeto global String  é um construtor para strings, ou uma sequência de caracteres._\n\n*Palavras-chaves*: _String | JavaScript | Reference_"
+            },
+            {
+                "title": "Number",
+                "description": "The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)\n\n*Descrição*: _The Number JavaScript object is a wrapper object allowing you to work with numerical values. A Number object is created using the Number() constructor._\n\n*Palavras-chaves*: _Number | Reference | JavaScript_"
+            },
+            {
+                "title": "Intl.NumberFormat",
+                "description": "O objeto Intl.NumberFormat é um construtor para objetos que habilita formatação de número sensível a linguagem.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Intl.NumberFormat](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat)\n\n*Descrição*: _O objeto Intl.NumberFormat é um construtor para objetos que habilita formatação de número sensível a linguagem._\n\n*Palavras-chaves*: _Internacionalização | NumberFormat | JavaScript_"
+            },
+            {
+                "title": "Number.parseInt()",
+                "description": "The Number.parseInt() method parses a string argument and returns an integer of the specified radix or base.",
+                "thumb_url": "https://i.imgur.com/Gpdebb5.png",
+                "message_text": "[​](https://i.imgur.com/keNHbqa.png)*Link*: [Number.parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt)\n\n*Descrição*: _The Number.parseInt() method parses a string argument and returns an integer of the specified radix or base._\n\n*Palavras-chaves*: _Number | ECMAScript 2015 | Method | JavaScript_"
+            }
+        ]
+    }
+]
