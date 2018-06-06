@@ -37,9 +37,7 @@ Example:
 @mdnsearchbot Array
 ```
 <div align="center">
-    <video controls>
-        <source src="./others/gif/help.mp4" type="video/mp4">
-    </video>
+    <img src="https://i.imgur.com/PH2QnNT.gif" />
 </div>
 
 ## Help
@@ -62,6 +60,19 @@ This bot is up and running at [Heroku](http://heroku.com/) through the Github in
 * [Telegraf-i18n](https://github.com/telegraf/telegraf-i18n)
 * [Remove Accents](https://github.com/tyxla/remove-accents)
 * [MDNSearchDocs](https://www.npmjs.com/package/mdn-search-docs)
+
+# Artwork
+I've made all the artwork for it:
+
+<div align="center">
+    <br>
+    <img src="./others/img/logo/logo.png" width=100/>
+    <img src="./others/img/homepage/homepage.png" width=100/>
+    <img src="./others/img/error/error.png" width=100/>
+    <img src="./others/img/notFound/notFound.png" width=100/>
+    <br>
+    <br>
+</div>
 
 # Contributing
 Please, I'm not a native/fluent english speaker, so whether you see a variable name wrote the wrong way or even some comment where I've wrote something with the wrong "past perfect way of life" or something like that, please let me know it. Not always is just about the code, but rather making it more clear to other people to learn from it.

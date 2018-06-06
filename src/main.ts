@@ -45,8 +45,9 @@ bot.command('about', ({ i18n, replyWithMarkdown }) => {
 
 bot.on('inline_query', async ({ i18n, answerInlineQuery, inlineQuery }) => {
     const message = messageToString({ message: inlineQuery.query });
-    const page = parseInt(inlineQuery.offset, 10) || 0;
-    const fetched = await fetchMDN({ message, translate: i18n, locale: i18n.locale(), page });
+    const offset = parseInt(inlineQuery.offset, 10) || 0;
+    const fetched = await fetchMDN({ message, translate: i18n, locale: i18n.locale(), page: offset });
+    const nextOffset = (1 !== fetched.length) ? offset : null;
 
-    answerInlineQuery(toInline(fetched), { next_offset: page + 1 });
+    answerInlineQuery(toInline(fetched), { next_offset: nextOffset });
 });
