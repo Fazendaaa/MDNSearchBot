@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run build && npm run bot",
     "bot": "node dist/main.js",
-    "test": "jest --config jest.config.json --ci --runInBand",
+    "test": "jest --config jest.config.json --ci --runInBand --detectOpenHandles",
     "build": "tsc",
     "watch": "tsc -w",
     "validate": "node node_modules/app.json/index.js validate"

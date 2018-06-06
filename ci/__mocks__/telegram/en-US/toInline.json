@@ -1,0 +1,91 @@
+[
+    {
+        "test": "foo input",
+        "input": [
+            {
+                "title": "foo",
+                "description": "foo",
+                "thumb_url": "foo",
+                "message_text": "foo"
+            }
+        ],
+        "output": [
+            {
+                "title": "foo",
+                "description": "foo",
+                "thumb_url": "foo",
+                "id": "0",
+                "type": "article",
+                "input_message_content": {
+                    "message_text": "foo",
+                    "parse_mode": "Markdown"
+                }
+            }
+        ]
+    },
+    {
+        "test": "foo bar input",
+        "input": [
+            {
+                "title": "foo bar",
+                "description": "foo bar",
+                "thumb_url": "foo bar",
+                "message_text": "foo bar"
+            }
+        ],
+        "output": [
+            {
+                "title": "foo bar",
+                "description": "foo bar",
+                "thumb_url": "foo bar",
+                "id": "0",
+                "type": "article",
+                "input_message_content": {
+                    "message_text":"foo bar",
+                    "parse_mode": "Markdown"
+                }
+            }
+        ]
+    },
+    {
+        "test": "foo and bar input",
+        "input": [
+            {
+                "title": "foo",
+                "description": "foo",
+                "thumb_url": "foo",
+                "message_text": "foo"
+            },
+            {
+                "title": "bar",
+                "description": "bar",
+                "thumb_url": "bar",
+                "message_text": "bar"
+            }
+        ],
+        "output": [
+            {
+                "title": "foo",
+                "description": "foo",
+                "thumb_url": "foo",
+                "id": "0",
+                "type": "article",
+                "input_message_content": {
+                    "message_text": "foo",
+                    "parse_mode": "Markdown"
+                }
+            },
+            {
+                "title": "bar",
+                "description": "bar",
+                "thumb_url": "bar",
+                "id": "1",
+                "type": "article",
+                "input_message_content": {
+                    "message_text": "bar",
+                    "parse_mode": "Markdown"
+                }
+            }
+        ]
+    }
+]

@@ -18,7 +18,8 @@ about:
   Sinta-se a vontade para reportar para: @farmy."
 
 mask:
-  "*Link*: [${title}](${url})\n\n\
+  "[\u200B](https://i.imgur.com/Gpdebb5.png)\
+  *Link*: [${title}](${url})\n\n\
   *Descrição*: _${description}_\n\n\
   *Palavras-chaves*: _${tags}_"
 

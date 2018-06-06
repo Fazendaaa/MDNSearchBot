@@ -7,10 +7,18 @@ import { searchMDN } from 'mdn-search-docs';
 import { Context } from '../../index';
 import { DescriptionContext, MDNResponse, ParseContext } from './index';
 
-const toDescription = ({ title, tags, excerpt, translate, url }: DescriptionContext): string => {
-    const parsedTags = tags.join(', ');
+const parseTags = (input: string | Array<string>): string => {
+    if (undefined === input) {
+        return '';
+    } if ('string' === typeof input) {
+        return input;
+    }
 
-    return translate.t('mask', { title, tags: parsedTags, description: excerpt, url });
+    return input.join(' | ');
+};
+
+const toMessage = ({ title, tags, excerpt, translate, url }: DescriptionContext): string => {
+    return translate.t('mask', { tags: parseTags(tags), description: excerpt, title, url });
 };
 
 const parseMDN = ({ input, translate }: ParseContext): Array<MDNResponse> => {
@@ -19,7 +27,7 @@ const parseMDN = ({ input, translate }: ParseContext): Array<MDNResponse> => {
             title,
             description: excerpt,
             thumb_url: 'https://i.imgur.com/Gpdebb5.png',
-            message_text: toDescription({ title, tags, excerpt, translate, url })
+            message_text: toMessage({ title, tags, excerpt, translate, url })
         };
     });
 };

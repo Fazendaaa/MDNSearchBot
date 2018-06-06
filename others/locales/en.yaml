@@ -18,7 +18,8 @@ about:
   Fell free to tell at: @farmy."
 
 mask:
-  "*Link*: [${title}](${url})\n\n\
+  "[\u200B](https://i.imgur.com/Gpdebb5.png)\
+  *Link*: [${title}](${url})\n\n\
   *Description*: _${description}_\n\n\
   *Tags*: _${tags}_"
 
