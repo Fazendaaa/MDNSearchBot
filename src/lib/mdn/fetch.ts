@@ -7,7 +7,7 @@ import { searchMDN } from 'mdn-search-docs';
 import { Context } from '../../index';
 import { DescriptionContext, MDNResponse, ParseContext, ParseTagsContext } from './index';
 
-// This fix the broken template for when running the mask.
+// This fixes the broken template which stems from running the mask.
 const cleanTags = (input: string): string => input.replace(/([\(\)])|([:_-])/gi, ' ');
 
 const parseTags = ({ input, translate }: ParseTagsContext): string => {
